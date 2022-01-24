@@ -1,0 +1,112 @@
+header{
+    // display: none;
+    background: var(--common-bg);
+    border-bottom: 8px solid var(--gray);
+    padding: 1rem 1.5rem;
+}
+.carList{
+    text-align: right;
+    img{
+        max-width: 50px;
+    }
+     > ul{
+        list-style: none;
+        margin: 0;
+        > li {
+            display: inline-block;
+            vertical-align: middle;
+            .dropdown {
+                h3{
+                    margin: 0;
+                }
+                h4{margin: 0;}
+            }
+        }
+        .dropdownMain{
+            .dropdown{
+                position: relative;
+                padding-right: 20px;
+                cursor: pointer;
+                &::after{
+                    content: '';
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-top: 6px solid var(--dark-gray);
+                    position: absolute;
+                    bottom: 4px;
+                    right: 0;
+                }
+            }
+            .showDropdown {
+                position: absolute;
+                width: 100%;
+                background: var(--light-blue);
+                left: 0;
+                border-radius: 3px;
+                margin-top: 20px;
+                top: 100px;
+                visibility: hidden;
+                opacity: 0;
+                transform: translateY(-2em);
+                transition: 0.4s ease;
+                -webkit-transition: 0.4s ease;
+                -o-transition: 0.4s ease;
+                -moz-transition: 0.4s ease;
+                -ms-transition: 0.4s ease;
+                &:before {
+                    content: '';
+                    border-left: 8px solid transparent;
+                    border-right: 8px solid transparent;
+                    top: -16px;
+                    position: absolute;
+                    border-bottom: 15px solid var(--light-blue);
+                    right: 74px;
+                }
+                ul{
+                    padding:0px;
+                    list-style: none;
+                    li {
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+                        padding: 1rem 1rem;
+                        box-sizing: border-box;
+                        align-items: center;
+                        svg{
+                            width: 20px;
+                            opacity: 0.5;
+                        }
+                        div:first-child{
+                            display: flex;
+                            align-items: center;
+                        }
+                        .content{
+                            padding-left: 20px;
+                            h3{
+                                margin: 0;
+                                font-weight: 400;
+                            }
+                            h4{
+                                margin: 0;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                    li:not(:last-child){
+                        border-bottom: 1px solid var(--blue-border);
+                    }
+                }
+            }
+            .showDropdown111{
+                opacity: 1;
+                transform: translateY(0em);
+                visibility: visible;
+                transition: 0.4s ease;
+                -webkit-transition: 0.4s ease;
+                -o-transition: 0.4s ease;
+                -moz-transition: 0.4s ease;
+                -ms-transition: 0.4s ease;
+            }
+        }
+    }
+}
