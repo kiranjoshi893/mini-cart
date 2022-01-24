@@ -120,7 +120,19 @@ function ProductLitst(props) {
             </li>
           );
         })}
-        {errorMsg ? <div className='error-msg'><h3>Something went wrong</h3></div> : ""}
+        {!productItems.ProductStore.storeData ? (
+          <>
+            {errorMsg ? (
+              <div className="error-msg">
+                <h3>Something went wrong</h3>
+              </div>
+            ) : (
+              ""
+            )}
+          </>
+        ) : (
+          ""
+        )}
       </ul>
     </div>
   );
