@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mini-cart/static/css/main.d1d0412b.css",
-    "main.js": "/mini-cart/static/js/main.ba069488.js",
-    "static/js/787.4d895634.chunk.js": "/mini-cart/static/js/787.4d895634.chunk.js",
-    "static/media/product.jpg": "/mini-cart/static/media/product.3416be402fd0926bd96f.jpg",
-    "index.html": "/mini-cart/index.html",
-    "main.d1d0412b.css.map": "/mini-cart/static/css/main.d1d0412b.css.map",
-    "main.ba069488.js.map": "/mini-cart/static/js/main.ba069488.js.map",
-    "787.4d895634.chunk.js.map": "/mini-cart/static/js/787.4d895634.chunk.js.map"
+    "main.css": "/mini-cart1/static/css/main.d1d0412b.css",
+    "main.js": "/mini-cart1/static/js/main.d4122c3f.js",
+    "static/js/787.4d895634.chunk.js": "/mini-cart1/static/js/787.4d895634.chunk.js",
+    "static/media/product.jpg": "/mini-cart1/static/media/product.3416be402fd0926bd96f.jpg",
+    "index.html": "/mini-cart1/index.html",
+    "main.d1d0412b.css.map": "/mini-cart1/static/css/main.d1d0412b.css.map",
+    "main.d4122c3f.js.map": "/mini-cart1/static/js/main.d4122c3f.js.map",
+    "787.4d895634.chunk.js.map": "/mini-cart1/static/js/787.4d895634.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1d0412b.css",
-    "static/js/main.ba069488.js"
+    "static/js/main.d4122c3f.js"
   ]
 }
